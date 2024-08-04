@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background: #f4f4f4;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+   background-image: url("modern-colorful-blue-wave-wide-banner-background-abstract-background-banner-design-web-banner-texture-header-website-vector-abstract-graphic-design-banner-pattern-background-template_181182-16316.avif");
+   background-size: cover;
+   background-repeat: no-repeat; 
+   color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.logo {
+    background-image: url(WhatsApp\ Image\ 2024-07-21\ at\ 01.04.22_5ffbc9a6.jpg);
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #ffdd57;
+}
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('db12fea16a6836ac1a7580921983fa06.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 0 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffdd57;
+}
+.hero h1 span{
+    color: red
+}
+
+.sjtech{
+    color: burlywood;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+.hero button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.hero button:hover {
+    background: white;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.section {
+    padding: 60px 0;
+    text-align: center;
+    background: url(images\ \(7\).jpeg) no-repeat center center/cover;
+ 
+    
+}
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.section p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+.features, .about, .testimonials, .cta {
+ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.features .feature-item, .testimonials .testimonial-item {
+    margin-bottom: 20px;
+}
+.cta {
+    background: #ffdd57;
+    color: #333;
+}
+.cta button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #333;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.cta button:hover {
+    background: #333;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.footer-content ul {
+    line-height: 2.5rem;
+    list-style: none;
+}
+.footer-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ffdd57;
+}
+.footer-content ul li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+}
+.footer-content ul li:hover {
+    color: aqua;
+}
