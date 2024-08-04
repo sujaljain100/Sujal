@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujal Jain Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <link rel="stylesheet" href="2.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="[removal.ai]_a5de584c-1a72-4556-bb57-a5840b3fa77e-whatsapp-image-2024-07-22-at-21-14-12_82808acf.jpg" alt="Logo">
+        </div>
+        <nav>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section class="sec1" id="home">
+        <div class="content">
+            <h1>Hi, I'm Sujal Jain</h1>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet non similique alias?<br> Illo quo dolorem autem amet, beatae sit explicabo neque <br>totam iure sunt sint facilis similique <br>fuga molestiae! Porro.</p>
+            <div class="btn">
+                <button class="hire">Hire Me</button>
+                <button>Let's Talk</button>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-twitter"></i>
+           
+           </div>
+        </div>
+        <div class="photo">
+            <img src="Screenshot 2024-07-24 202502.png" alt="Sujal Jain">
+        </div>
+      
+     
+    </section>
+
+    <section class="sec2" id="about">
+        <div class="img2"><img src="Screenshot 2024-07-25 203112.png" alt=""></div>
+        <div class="about">
+            <h1>About Me</h1><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus placeat <br> minima, architectobr
+                 distincti   suscipit error, at, animi voluptates <br>accusantium porro sit odit similique! Totam nobis <br> exercitationem ad illum inventore.</p>
+                 <br><br>
+            <span>UI/UX</span>     
+            <br><p>Designing Web/App Interface</p><br>
+            <span>Web development</span>     
+            <br><p>Web app development</p><br>
+            <span> app development</span>     
+            <br><p>Building Android/ iOs apps</p>
+        </div>
+    </section>
+  
+    <section class="sec3" id="service">
+        <h1>My Services</h1>
+     <div class="boxes">
+        <div class="box1">
+            <i class="fa-solid fa-code"></i><br>
+            <h3>Web Design</h3><br>
+           <p> Lorem ipsum dolor sit amet, consectetur <br>
+            adipisicing elit. Alias distinctio deserunt pariatur <br>
+             quos quae, dolores in,lorem</p>
+             <br><br>
+             <span>Learn more</span>
+
+        </div>
+
+        <div class="box2">
+            <i class="fa-brands fa-joomla"></i><br>
+            <h3>UI/UX Design</h3><br>
+           <p> Lorem ipsum dolor sit amet, consectetur <br>
+            adipisicing elit. Alias distinctio deserunt pariatur <br>
+             quos quae, dolores in,</p>
+             <br><br>
+             <span>Learn more</span>
+        </div>
+        <div class="box3">
+            <i class="fa-brands fa-figma"></i><br>
+            <h3>App Design</h3><br>
+            <p> Lorem ipsum dolor sit amet, consectetur <br>
+             adipisicing elit. Alias distinctio deserunt pariatur <br>
+              quos quae, dolores in,</p>
+              <br><br>
+              <span>Learn more</span>
+        </div>
+    </div>
+    </section>
+       
+     
+
+
+
+       <footer>
+        <div class="contact" id="contact">
+            <h1>Contact Me</h1>
+            <br>
+            <br>
+            <a href="#">contact@example.com</a>
+            <br>
+            <br>
+            <span>9407008981</span>
+            <br><br>
+               
+      
+        <i class="fa-brands fa-facebook"></i>
+       <i class="fa-brands fa-instagram"></i>
+       <i class="fa-brands fa-twitter"></i>
+           <br><br>
+  
+            <button>Download CV</button>
+        </div>
+            <div class="input">
+                <form action="">
+                <input type="text" name="nm" id="" placeholder="your name">
+                <br>
+                <input type="email" name="mail" id="" placeholder="your email">
+                <br>
+                <textarea name="" id="" placeholder="Your Message"></textarea>
+                <br><br>
+                <input type="submit" value="Submit" class="btn">
+            </form>
+            </div>
+       
+       </footer>
+</body>
+</html>
